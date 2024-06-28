@@ -46,7 +46,6 @@
 --6. Get the full name of the staff from whose store order get delayed.
 
 	select distinct concat_ws(' ',sales.staffs.first_name,sales.staffs.last_name)
-	--DATEDIFF(day,sales.orders.required_date,sales.orders.shipped_date)
 	from sales.orders inner join sales.staffs on sales.orders.staff_id = 
 	sales.staffs.staff_id where DATEDIFF(day,sales.orders.required_date,sales.orders.shipped_date)<=1
 
