@@ -49,12 +49,11 @@
               where sales.staffs.active = 1
 
         
-  ### Results and Insights:
+### Results and Insights:
      - Identified product sold out.
      - Analyzed staff from whose store order get delayed
      - Listed Products where quantity <=10
      - Analyzed Products Stock
-
 
 ### Recommendations:
 
