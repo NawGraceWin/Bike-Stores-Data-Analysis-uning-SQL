@@ -1,12 +1,11 @@
 ## BikeStores Database Analysis Using SQL
-
 ### Project Title:
     BikeStores Database Analysis Using SQL
 
 ### Objectives:
-     - Analyze sales performance across stores and products.
-     - Understand customer demographics and purchasing patterns.
-     - Assess inventory levels and turnover rates.
+- Analyze sales performance across stores and products.
+- Understand customer demographics and purchasing patterns.
+- Assess inventory levels and turnover rates.
      
 ### Methodology:
    - Data Source: BikeStores database with tables for stores, customers, products, sales, and inventory.
