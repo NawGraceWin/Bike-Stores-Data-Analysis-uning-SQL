@@ -75,3 +75,6 @@
 	select distinct sales.stores.store_id,sales.stores.store_name from sales.stores inner join 
 	sales.staffs on sales.stores.store_id =sales.staffs.store_id
     where sales.staffs.active = 1
+
+
+
